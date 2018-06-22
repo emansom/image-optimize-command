@@ -12,5 +12,5 @@ RUN { \
 USER www-data
 
 ENV COMPOSER_MEMORY_LIMIT=-1
-
+ENV HOME=/home/www-data
 RUN wp package install typisttech/image-optimize-command:^0.1.2
